@@ -1,10 +1,9 @@
 package com.eleks.academy.pharmagator.repositories;
 
-import com.eleks.academy.pharmagator.entities.Pharmacy;
+import com.eleks.academy.pharmagator.entities.Medicine;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface PharmacyRepository extends JpaRepository<Pharmacy, Long> {
-
+public interface MedicineRepository extends JpaRepository<Medicine, Long> {
 }
